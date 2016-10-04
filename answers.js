@@ -117,6 +117,9 @@ function findBiggestNumber(numbers) {
  }
   return biggestNumber;
 }
-        }
-    }
+
+//Function 13 - filtering truthy values in an array
+function bouncer(arr) {
+  return arr.filter(Boolean);
 }
+    
