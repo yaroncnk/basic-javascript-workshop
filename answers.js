@@ -5,3 +5,4 @@ function firstLetter(word) {
     return word.substring(0,1);
 }
 
+
