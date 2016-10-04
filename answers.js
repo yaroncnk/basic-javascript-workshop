@@ -94,3 +94,14 @@ function findLongestWord(string) {
     }
     return arr[location];
 }
+
+//Function 11 - input - a string, output - the same string with every letter capitalized
+function capitalizeMe(string) {
+    var arr = string.split(" ");
+    var newArr = [];
+    for (var i=0; i < arr.length; i++) {
+        newArr.push(arr[i].substring(0,1).toUpperCase() + arr[i].substring(1).toLocaleLowerCase());
+    }
+    var newString = newArr.join(" ");
+    return newString;
+}
