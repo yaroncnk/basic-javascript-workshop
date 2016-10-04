@@ -26,7 +26,7 @@ function multiplication(num1,num2) {
     return num1 * num2;
 }
 
-//Function 6 - input - two numbers and an operator , output - based on the operator
+//Function 6 - input - two numbers and an operator , output - based on the operator and the string
 function doit(num1,num2,operator) {
     switch (operator) {
         case 'add':
