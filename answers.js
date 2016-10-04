@@ -25,3 +25,24 @@ function addition(num1, num2) {
 function multiplication(num1,num2) {
     return num1 * num2;
 }
+
+//Function 6 - input - two numbers and an operator , output - based on the operator
+function doit(num1,num2,operator) {
+    switch (operator) {
+        case 'add':
+            return num1 + num2;
+            break;
+        case 'subtract':
+            return num1 - num2;
+            break;
+        case 'mult':
+            return num1*num2;
+            break;
+        case 'div':
+            return num1/num2;
+            break;
+        default:
+            return 0;
+    }
+    
+}
