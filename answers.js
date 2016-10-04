@@ -66,3 +66,18 @@ function reverseme(string){
     return newString;
     
 }
+
+//Function 9 - input - a number , output - factorial (I'm doing it "manually")
+function factorial(number){
+    var counter = 1;
+    if (number === 0) {
+        counter = 1;
+    } else {
+    while (number >= 1) {
+        counter = counter * number;
+        number -- ;
+    }
+    return counter; 
+ }
+}
+}
