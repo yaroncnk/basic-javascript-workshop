@@ -132,3 +132,18 @@ function sumThem(array) {
     return sum;
 }
 
+//Function 15 - unique elements from two arrays
+function uniqueElements(array1,array2) {
+  var newArray = [];
+    for (var i = 0; i < array1.length ; i++) {
+        if (array2.indexOf(array1[i]) < 0) {
+            newArray.push(array1[i]);
+        }
+    }
+   for (var j = 0; j < array2.length ; j++) {
+        if (array1.indexOf(array2[j]) < 0) {
+            newArray.push(array2[j]);
+        }
+    }
+    return newArray;
+}
