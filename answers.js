@@ -147,3 +147,17 @@ function uniqueElements(array1,array2) {
     }
     return newArray;
 }
+
+//Mini challenge - array.map manually
+var array = [1,2,3,4];
+function funky(number) {
+  return number*2;
+}
+
+function mapping(array, funky) {
+    var newArr = [];
+    for (var i = 0; i < array.length ; i++) {
+        newArr.push(funky(array[i]));
+    }
+    return newArr;
+}
