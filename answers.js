@@ -105,3 +105,18 @@ function capitalizeMe(string) {
     var newString = newArr.join(" ");
     return newString;
 }
+
+//Function 12 - input - an array of numbers , output - the largest number
+var arr = [1,2,44,56,23, -3, 100];
+function findBiggestNumber(numbers) {
+    var biggestNumber = 0;
+    for (var i = 0 ; i < numbers.length; i++) {
+        if(numbers[i] > biggestNumber) {
+            biggestNumber = numbers[i];
+        }
+ }
+  return biggestNumber;
+}
+        }
+    }
+}
