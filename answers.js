@@ -28,21 +28,29 @@ function multiplication(num1,num2) {
 
 //Function 6 - input - two numbers and an operator , output - based on the operator and the string
 function doit(num1,num2,operator) {
+    var output = 0;
     switch (operator) {
         case 'add':
-            return num1 + num2;
+            output = num1 + num2;
             break;
         case 'subtract':
-            return num1 - num2;
+            output = num1 - num2;
             break;
         case 'mult':
-            return num1*num2;
+            output = num1*num2;
             break;
         case 'div':
-            return num1/num2;
+            output = num1/num2;
             break;
-        default:
-            return 0;
     }
-    
+        return output;
+}
+
+//Function 7 - input - a string and a number , output - the string copied X amount of times (depends on the number)
+function copyme(word,counter) {
+    var newString = '';
+    for (var i=0; i<counter; i++) {
+        newString = newString + word;
+    }
+    return newString;
 }
