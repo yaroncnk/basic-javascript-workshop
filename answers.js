@@ -80,4 +80,17 @@ function factorial(number){
     return counter; 
  }
 }
+
+//Function 10 - input - array of words, output - longest word in the array
+function findLongestWord(string) {
+    var arr = string.split(" ");
+    var longestString = 0;
+    var location = 0;
+    for (var i= 0; i < arr.length; i++) {
+        if (arr[i].length > longestString) {
+            longestString = arr[i].length;
+            location = i;
+        }
+    }
+    return arr[location];
 }
