@@ -123,3 +123,12 @@ function bouncer(arr) {
   return arr.filter(Boolean);
 }
     
+//Function 14 - sum of numbers in an array
+function sumThem(array) {
+    var sum = 0;
+    for (var i= 0; i< array.length; i++) {
+        sum = sum + array[i];
+    }
+    return sum;
+}
+
