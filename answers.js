@@ -54,3 +54,15 @@ function copyme(word,counter) {
     }
     return newString;
 }
+
+//Function 8 - input - a string , output - a reversed string
+function reverseme(string){
+    var arr = string.split("");
+    var newArr = [];
+    for (var i = arr.length; i>=0 ; i--) {
+        newArr.push(arr[i]);
+    }
+    var newString = newArr.join(""); 
+    return newString;
+    
+}
